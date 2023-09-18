@@ -1,0 +1,82 @@
+#footer{
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  color: #808080;
+  display: flex;
+  align-items: center;
+}
+#footer .wrap{
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin: 50px;
+  width: 1330px;
+}
+#footer .wrap h2{
+  font-size: 0px;
+  border-right: 1px solid #999;
+  width: calc(100% / 6.5 );
+}
+#footer .wrap h2::before{
+  content: "";
+  width: 100px;
+  height: 100px;
+  display: flex;
+  background-image: url(../img/logo.png);
+  background-size: cover;
+}
+#footer .wrap .footerleft{
+  font-size: 15px;
+  width: 1000px;
+  line-height: 2.5;
+  margin-left: -70px;
+}
+#footer .wrap .footerleft li{
+  
+}
+#footer .wrap p{
+  
+}
+#footer .footerright{
+  
+  width: 100%;
+}
+#footer .footerright h3{
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: 80px;
+  line-height: 1.5;
+}
+#footer .footerright h3 span{
+  
+}
+#footer .footerright a{
+  margin: 30px;
+  font-size: 0px;
+  margin-left: -5px;
+}
+#footer .footerright a::before{
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-size: contain;
+  background-image: url(../img/youtube.png);
+}
+#footer#footer .footerright a:nth-child(1)::before{
+  background-image: url(../img/youtube.png);
+}
+#footer#footer .footerright a:nth-child(2)::before{
+  background-image: url(../img/insta.png);
+}
+#footer#footer .footerright a:nth-child(3)::before{
+  background-image: url(../img/face.png);
+}
+
+
+
+
+

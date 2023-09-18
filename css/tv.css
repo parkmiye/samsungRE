@@ -1,0 +1,147 @@
+#tv{
+  width: 100%;
+  height: 1000px;
+  margin-top: -100px;
+}
+#tv .wrap{
+        
+}
+#tv .wrap .h1{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  line-height: 2.5;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+#tv .wrap .flex{
+  display: flex;
+  gap: 50px;
+  color: black;
+  background-color: transparent;
+  font-size: 20px;
+}
+#tv .wrap .flex li{
+  border-bottom: 1.5px solid black;
+  padding-bottom: 5px;
+}
+#tv .mp{
+  
+}
+#tv .mp .pc{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: #eee;
+  padding: 120px 120px 250px 120px;
+  margin: 40px 30px;
+  border: 1px solid black;
+}
+#tv .mp .pc li{
+  border: 1.5px solid black;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+#tv .mp .pc li::before{
+  content: ""; 
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#tv .mp .pc li:nth-child(1)::before{
+  background-image: url(../img/tv1.png);
+}
+#tv .mp .pc li:nth-child(2)::before{
+  background-image: url(../img/tv2.png);
+}
+#tv .mp .pc li:nth-child(3)::before{
+  background-image: url(../img/tv3.png);
+}
+#tv .mp .pc li:nth-child(4)::before{
+  background-image: url(../img/tv4.webp);
+}
+#tv .mp .pc li:nth-child(5)::before{
+  background-image: url(../img/tv5.jpg);
+}
+#tv .mp .pc li .h3{
+  line-height: 1.7;
+  font-size: 19px;
+  transform: translateY(40px);
+  font-weight: bold;
+}
+#tv .mp .pc li .h3 a{
+  
+}
+#tv .mp .pc li .h3 a:hover{
+  color: white;
+}
+#tv .mp .pc li .h3{
+  transition: all 1s;
+  display: block;
+  line-height: 1.5;
+  color: black;
+}
+#tv .mp .pc li .h3:hover{
+  background-color: black;
+  color: #fff;
+  border-radius: 17.5px;
+  padding: 10px 10px;
+}
+#tv .mp .pc li p{
+  transform: translateY(67px);
+  line-height: 1.5;
+}
+#tv .mp .pc li p span{
+  line-height: 0;
+}
+#tv .link{
+  border: 1px solid black;
+  padding: 20px;
+  width: 220px;
+  display: block;
+  box-sizing: border-box;
+  margin-left: 1118px;
+  transform: translateY(-150px);
+  position: relative;
+  transition: all 1s;
+  z-index: 0;
+  font-weight: bold;
+  border-radius: 50px 50px;
+  overflow: hidden;
+  left: 535px;
+  top: 140px;
+}
+#tv .link::before{
+  content: "";
+  width: 0%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 1s;
+  color: white;
+  background-color: black;
+  z-index: -1;
+}
+#tv .link:hover{
+  color: white;
+}
+#tv .link:hover::before{
+  color: white;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
